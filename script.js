@@ -1,9 +1,9 @@
-let name = "Alex"
+let name = "alex"
  let code = 7777
  let money = 10000
  
  let user_name = prompt("как вас зовут?")
- if ( name.toLowerCase().includes(user_name)) {
+ if ( name.includes(user_name.toLowerCase())) {
    alert("Welcome")
    let user_code = +prompt("Номер счета")
    if (code === user_code) {
